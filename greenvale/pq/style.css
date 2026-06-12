@@ -1,0 +1,12 @@
+/* Partner specific styles */
+.partner-box {
+    border-top: 8px solid #2e7d32; /* A slightly darker green for partners */
+}
+
+
+
+.role {
+    font-style: italic;
+    color: #555;
+    margin-bottom: 15px;
+}

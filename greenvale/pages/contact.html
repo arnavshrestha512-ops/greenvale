@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  
+  <title>Contact | Greenvale Eco-Mart</title>
+
+
+ 
+
+  <!--  CSS -->
+  <link rel="stylesheet" href="../css/style.css">
+</head>
+
+<body>
+
+<!--  HEADER  -->
+<header>
+
+  <div class="header-1">
+   <a href="#" class="logo">
+      </i>Greenvale Eco-Mart</a>
+    <form class="search-box-container">
+      <input type="search" placeholder="search here...">
+    </form>
+  </div>
+
+  <div class="header-2">
+    <nav class="navbar">
+      <a href="../index.html">Home</a>
+      <a href="product.html">Product</a>
+      <a href="blog.html">Blog</a>
+      <a href="research.html">Research</a>
+      <a href="contact.html" class="active">Contact</a>
+      <a href="aboutus.html">About us</a>
+      
+    </nav>
+  </div>
+
+</header>
+
+
+<!--  CONTACT SECTION  -->
+<section class="Contact Us" id="Contact Us" style="text-align: center; padding: 20px;">
+    <h1 class="heading"><span>Contact Us</span></h1>
+
+    <form id="contactForm" onsubmit="return sendMessage(event)" 
+          style="max-width: 500px; margin: 0 auto; text-align: left;">
+        
+        <div class="inputBox">
+            <input type="text" placeholder="Your Name" required
+            style="width:100%; padding:12px; margin:10px 0; border-radius:8px; border:1px solid #ccc; box-sizing: border-box;">
+        </div>
+        
+        <input type="email" placeholder="Email" required 
+        style="width:100%; padding:12px; margin:10px 0; border-radius:8px; border:1px solid #ccc; box-sizing: border-box;">
+        
+        <input type="tel" placeholder="Contact number" required 
+        style="width:100%; padding:12px; margin:10px 0; border-radius:8px; border:1px solid #ccc; box-sizing: border-box;">
+        
+        <input type="text" placeholder="Subject" required 
+        style="width:100%; padding:12px; margin:10px 0; border-radius:8px; border:1px solid #ccc; box-sizing: border-box;">
+
+        <textarea placeholder="Contact us..." required 
+        style="width:100%; height:120px; padding:12px; margin:10px 0; border-radius:8px; border:1px solid #ccc; box-sizing: border-box; resize: vertical;"></textarea>
+
+        <div style="text-align: center;">
+            <input type="submit" value="send message" class="btn" 
+            style="padding: 10px 20px; cursor: pointer; background-color: #4CAF50; color: white; border: none; border-radius: 5px;">
+        </div>
+    </form>
+
+    <p id="messageStatus" style="display: none; color: green; margin-top: 15px;">Message Sent Successfully!</p>
+</section>
+<!-- Java script -->
+<script>
+    function sendMessage(event) {
+        event.preventDefault();  // Prevent form submission
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        // Show message confirmation
+        document.getElementById("messageStatus").style.display = "block";
+
+        // Clear form inputs after sending message
+        document.getElementById("contactForm").reset();
+
+        return false;  // Prevent the form from reloading the page
+    }
+</script>
+
+  
+  <!-- contact section ends -->
+<!--  FOOTER  -->
+<section class="footer">
+
+  <div class="box-container">
+
+    <div class="box">
+      <a href="#" class="logo">
+
+      <p>"Join us for eco-friendly products at unbeatable prices."</p>
+
+      
+    </div>
+
+    <div class="box">
+      <h3>Our Location</h3>
+      <div class="links">
+       <a href="https://www.google.com/maps/place/Bhakta+Chandra+Marga,+Kageshwori+Manohara+44600/@27.7049904,85.3895214,17z/data=!3m1!4b1!4m6!3m5!1s0x39eb1a548a3d8fcb:0x3b31f45909781a57!8m2!3d27.7049904!4d85.3920963!16s%2Fg%2F11bxf9xmzd?entry=ttu&g_ep=EgoyMDI2MDEwNi4wIKXMDSoASAFQAw%3D%3D">Bhaktapur</a>
+          <a href="https://www.google.com/maps/place/New+Baneshwor,+Kathmandu+44600/data=!4m2!3m1!1s0x39eb199a06c2eaf9:0xc5670a9173e161de?sa=X&ved=1t:242&ictx=111">Baneshwor</a>
+          <a href="https://www.google.com/maps/place/Lazimpat,+Kathmandu+44600/@27.7220465,85.3214872,17z/data=!3m1!4b1!4m6!3m5!1s0x39eb1919f7dd0685:0xc59baa0caae9c83d!8m2!3d27.7215031!4d85.3200837!16s%2Fm%2F02z71h1?entry=ttu&g_ep=EgoyMDI2MDEwNi4wIKXMDSoASAFQAw%3D%3D">Lazimpat</a>
+      </div>
+    </div>
+
+    <div class="box">
+      <h3>Quick Links</h3>
+      <div class="links">
+        <a href="../index.html">Home</a>
+        <a href="product.html">Product</a>
+        <a href="blog.html">Blog</a>
+        <a href="research.html">Research</a>
+        <a href="contact.html">Contact</a>
+        <a href="aboutus.html">About us</a>
+      </div>
+    </div>
+
+  </div>
+
+ <h1 class="credit"> created by <span> Samridhi Khadka </span></h1>
+ 
+</section>
+<style>
+    
+    }
+</style>
+
+
+
+<footer>
+       <p align="center"> © 2026 Greenvale Eco-Mart | Growing a Greener Future </p>
+    </footer>
+
+</body>
+</html>
